@@ -83,6 +83,8 @@ mark {
   color: black;
 }
 
+
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -118,14 +120,26 @@ ul.nobull {
 }
 
 
-input[type=text] {
-  border: 1px solid #ccc;
-  background: linear-gradient(to left, #ccc 1px, transparent 0);
-  background-size: 50px 1px;
-  width: 35%;
-  font: 12px monaco, monospace;
-  letter-spacing: 10.5px;
-  text-indent: 5px;
-  text-transform: uppercase;
-    margin-left: 500px;
+/*input[type=text] {*/
+/*  border: 1px solid #ccc;*/
+/*  background: linear-gradient(to left, #ccc 1px, transparent 0);*/
+/*  background-size: 50px 1px;*/
+/*  width: 35%;*/
+/*  font: 12px monaco, monospace;*/
+/*  letter-spacing: 10.5px;*/
+/*  text-indent: 5px;*/
+/*  text-transform: uppercase;*/
+/*    margin-left: 500px;*/
+/*}*/
+
+.userInput input {
+  margin: 10px;
+  height: 35px;
+  width: 65px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  background: #eef2f3;
+  justify-content: center;
 }
